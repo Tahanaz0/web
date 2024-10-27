@@ -1,29 +1,56 @@
+import Image from "next/image";
 function Contact(){
   return(
     <div>
-       <div className="  ">
-        <h1 className="font-bold  text-center"> Contact Us</h1>
-        <form  className='bg-neutral-200 text-center h-78vw'action="submit_contact_form.php my-2" method="POST">
-            <div className="form-group my-5">
-                <label className="mx-10">Your Name</label>
-                <br />
-                <input className=" mx-5  border-solid border-2 w-36 border-indigo-400" type="text" id="name" name="name" placeholder="Enter your name" required/>
+
+<div className="flex flex-col items-center justify-center gap-10 mx-auto w-full max-w-5xl mb-20">
+
+    <div className="flex gap-10">
+
+        <div className="w-[40%] shadow-lg p-4 rounded-lg"> {/* Using Tailwind's shadow-lg */}
+            <div className="border-b-2 pb-4 mb-4">
+                <div className="flex gap-4"> 
+                    <div>
+                        <Image src='/icons-phone.png' alt='Phone icon' width={0} height={0} sizes="100vw" 
+                        style={{width:'100%'}} />
+                    </div> 
+                    <h1 className="font-bold">Call To Us</h1> 
+                </div>
+                <p className="mt-2">We are available 24/7, 7 days a week</p>
+                <p className="mt-2">Phone: +8801611112222</p>
             </div>
-            <div className="form-group  ">
-                <label  className="">Your Email</label>
-                <br />
-                <input className=" mx-4  border-solid border-2 w-36 border-indigo-400" type="email" id="email" name="email" placeholder="Enter your email" required/>
+            <div>
+                <div className="flex gap-4"> 
+                    <div>
+                        <Image src='/icons-mail.png' alt='Mail icon' width={0} height={0} sizes="100vw" 
+                        style={{width:'100%'}} />
+                    </div> 
+                    <h1 className="font-bold">Email Us</h1> 
+                </div>
+                <p className="mt-2">Fill out our form and we will contact you within 24 hours.</p>
+                <p className="mt-2">Email: customer@exclusive.com</p>
+                <p className="mt-2">Email: support@exclusive.com</p>
             </div>
-            <div className="form-group">
-                <label className="mx-10" >Message</label>
-                <br />
-                <input className=' mx-5 border-solid border-2 w-36 border-indigo-400' id="message" name="message" placeholder="Write your message here" required/>
+        </div>
+
+        <div className="w-full bg-white p-4 shadow-lg rounded-lg"> {/* Using Tailwind's shadow-lg */}
+            <div className="flex gap-x-2">
+                <input type="text" placeholder="Your Name" className="bg-[#F5F5F5] p-2 focus:outline-none border-2 focus:border-white rounded-md" />
+                <input type="text" placeholder="Your Email" className="bg-[#F5F5F5] p-2 focus:outline-none border-2 focus:border-white rounded-md" />
+                <input type="text" placeholder="Your Phone number" className="bg-[#F5F5F5] p-2 flex-1 focus:outline-none border-2 focus:border-white rounded-md" />
             </div>
-            <button className=" mx-10 my-5  text-slate-500 hover:text-blue-200 bg-slate-800" type="submit">Submit</button>
-        </form>
+            <input type="text" placeholder="Your Feedback" className="bg-[#F5F5F5] p-2 rounded-md w-full h-44 focus:outline-none border-2 focus:border-white mt-2" />
+ <button className='bg-red-500 text-white py-1 px-3 text-sm  ml-[80%] mt-14 rounded-md'>Send Message</button>
+ </div>
+   
+    </div>
+</div>
+
+
+
 
        
-    </div>
+
     </div>
   )
 

@@ -5,31 +5,7 @@ import Image from "next/image"
 function Footer (){
     return(
       <div>
-        <div> <div className='flex justify-center gap-5 my-5'>
-      <div>   <Image src="/frame1.png" width={500} height={400} alt="star icon" /></div>
-      <div>  <Image src="/frame.png" width={500} height={400} alt="star icon" /></div>
-     </div>
-
-
-
-<div className='flex justify-evenly'>
-  <div className='  m-9 '><Image src="/trans.png" width={90} height={20} alt="star icon"  className='ml-14'/>
-<div className='mt-5'>  <h1  className='font-bold  '>FREE AND FAST DELIVERY</h1>
-<h1>Free delivery for all orders over $140</h1></div> </div>
-
-<div className='  m-9 '><Image src="/headphones.png" width={90} height={20} alt="star icon" className='ml-14' />
- <div className='mt-5'> <h1  className='font-bold  text-center '>24/7 CUSTOMER SERVICE</h1>
- <h1>Friendly 24/7 customer support</h1></div></div>
-
-<div className='  m-9 '><Image src="/tick.png" width={90} height={20} alt="star icon" className='ml-14'/>
- <div className='mt-5'> <h1  className='font-bold ' >MONEY BACK GUARANTEE</h1>
- <p>We reurn money within 30 days</p></div>
-  </div>
-</div>
-
-
-
-</div>
+       
         <div className='footer  bg-[#000000]  text-white h-80 '>
       <div className="flex justify-around py-5  gap-4">
       <ul className="">

@@ -5,16 +5,16 @@ import "../style/style.css"
 function Homepage() {
   return (
     <div>
-      <div className='flex justify-around  bg-slate-700 relative'>
+      <div className='flex justify-around relative'>
         <div className='w-75   px-16  border-r-2 border-black-500 '>
           <ul className=''>
-            <li>Woman's Fashion</li>
-            <li>Men's Fashion</li>
+            <li>{`Woman's Fashion`}</li>
+            <li>{`Men's Fashion`}</li>
             <li>Electronics</li>
             <li>Home & Lifestyle</li>
             <li>Medicine</li>
             <li>Sports & Outdoor</li>
-            <li>Baby's & Toys</li>
+            <li>{`Baby's & Toys`}</li>
             <li>Groceries & Pets</li>
             <li>Health & Beauty</li>
           </ul></div>
@@ -69,12 +69,13 @@ function Homepage() {
 
 <div className='flex justify-evenly text-center gap-4'>
   <div>
-    <div className="bg-[#F5F5F5] h-72 w-60 py-5 relative flex justify-center items-center">
-      <Image src="/game.png" width={200} height={200} alt='HAVIT HV-G92 Gamepad' />
-      <Image src="/heart.png" width={24} height={24} className="absolute top-4 right-4" alt="heart icon" />
-      <Image src="/Eye.png" width={24} height={24} className="absolute top-12 right-4" alt="eye icon" />
+    <div className="bg-[#F5F5F5] h-72 w-60 py-5 relative flex justify-center items-cente hover:translate-x-2" >
+      <Image src="/game.png" width={200} height={200} alt='HAVIT HV-G92 Gamepad'  />
+      <Image src="/heart.png" width={24} height={24} className="absolute top-4 right-4" alt="heart icon"  />
+      <Image src="/Eye.png" width={24} height={24} className="absolute top-12 right-4" alt="eye icon"  />
       <button className='bg-red-500 text-white py-1 px-3 text-sm absolute top-3 left-3 rounded-md'>JS -40%</button>
     </div>
+    
     <p>HAVIT HV-G92 Gamepad</p>
     <p>$120</p>
     <p className="text-light-blue-600"> $160</p>
@@ -394,7 +395,31 @@ function Homepage() {
 </div>
    
       
+<div> <div className='flex justify-center gap-5 my-5'>
+      <div>   <Image src="/frame1.png" width={500} height={400} alt="star icon" /></div>
+      <div>  <Image src="/frame.png" width={500} height={400} alt="star icon" /></div>
+     </div>
 
+
+
+<div className='flex justify-evenly'>
+  <div className='  m-9 '><Image src="/trans.png" width={90} height={20} alt="star icon"  className='ml-14'/>
+<div className='mt-5'>  <h1  className='font-bold  '>FREE AND FAST DELIVERY</h1>
+<h1>Free delivery for all orders over $140</h1></div> </div>
+
+<div className='  m-9 '><Image src="/headphones.png" width={90} height={20} alt="star icon" className='ml-14' />
+ <div className='mt-5'> <h1  className='font-bold  text-center '>24/7 CUSTOMER SERVICE</h1>
+ <h1>Friendly 24/7 customer support</h1></div></div>
+
+<div className='  m-9 '><Image src="/tick.png" width={90} height={20} alt="star icon" className='ml-14'/>
+ <div className='mt-5'> <h1  className='font-bold ' >MONEY BACK GUARANTEE</h1>
+ <p>We reurn money within 30 days</p></div>
+  </div>
+</div>
+
+
+
+</div>
 
 
     </div>
