@@ -26,7 +26,7 @@ style={{ width: '100%',  }}
           
             <div className='flex gap-24'>
           <button className='bg-red-500 text-white w-[20%] h-8'>Login</button>
-            <Link href="login" className='pl-3 text-red-500' > Forget password?</Link>
+            <Link href="login" className='pl-3 text-red-500' > Forget password?.</Link>
             </div> 
             </div>
           
