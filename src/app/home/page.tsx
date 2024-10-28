@@ -19,7 +19,8 @@ function Homepage() {
             <li>Health & Beauty</li>
           </ul></div>
         <div className=''>
-          <Image src='/main.png ' width={850} alt="main" height={1000} />
+          <Image src='/mainn.png ' width={850} alt="main" height={100} />
+          hhh
 
         </div>
       
@@ -27,7 +28,7 @@ function Homepage() {
       </div>
 
 <div className='w-full h-48 relative'>
-    <Image src='/phonei.png ' width={400} alt="main" height={400}  className='absolute right-24 object-contain top-[-20%]'/>
+    <Image src='/iphone.png ' width={400} alt="main" height={400}  className='absolute right-24 object-contain top-[-20%]'/>
 </div>
 
       <div className=' border-b-2 border-black-500'>
