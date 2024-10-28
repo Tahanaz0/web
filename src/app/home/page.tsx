@@ -20,7 +20,7 @@ function Homepage() {
           </ul></div>
         <div className=''>
           <Image src='/mainn.png ' width={850} alt="main" height={100} />
-          hhh
+    
 
         </div>
       
