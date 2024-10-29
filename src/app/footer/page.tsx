@@ -9,11 +9,11 @@ function Footer (){
         <div className='footer  bg-[#000000]  text-white h-80 '>
       <div className="flex justify-around py-5  gap-4">
       <ul className="">
-        <p className="font-bold ">Exclusive</p>
+        <p className="font-bold  text-[1vw]">Exclusive</p>
         
-        <li className="mt-5">Subscribe</li>
-        <li className="mt-5">Get 10% off your first order</li>
-        <li> <button className="border boder-solid-1">Enter your email</button></li>
+        <li className="mt-5 text-[1vw]">Subscribe</li>
+        <li className="mt-5 text-[1vw]">Get 10% off your first order</li>
+        <li> <button className="border boder-solid-1 text-[1vw]">Enter your email</button></li>
         </ul>
      
 
@@ -21,39 +21,45 @@ function Footer (){
 
 
       <ul className=" w-80">
-        <p className=" font-bold  ">Support</p>
-        <li className=" mt-5">111 Bijoy sarani, Dhaka,  DH 1515, Bangladesh.</li>
+        <p className=" font-bold   text-[1vw]">Support</p>
+        <li className=" mt-5 text-[1vw]">111 Bijoy sarani, Dhaka,  DH 1515, Bangladesh.</li>
         
-        <li className="mt-5">exclusive@gmail.com</li>
-        <li className="mt-5">+88015-88888-9999</li>
+        <li className="mt-5 text-[1vw]">exclusive@gmail.com</li>
+        <li className="mt-5 text-[1vw]">+88015-88888-9999</li>
         
       </ul>
       <ul className="">
-        <p className=" font-bold ">Account</p>
-        <li className="mt-5">My Account</li>
-        <li className="mt-5">Login / Register</li>
-        <li className="mt-5">Cart</li>
-        <li className="mt-5">
+        <p className=" font-bold  text-[1vw]">Account</p>
+        <li className="mt-5 text-[1vw]">My Account</li>
+        <li className="mt-5 text-[1vw]">Login / Register</li>
+        <li className="mt-5 text-[1vw]">Cart</li>
+        <li className="mt-5 text-[1vw]">
          Whishlist
         </li>
-        <li>Shop</li>
+        <li className="text-[1vw]">Shop</li>
       </ul>
       <ul className="lower-list">
-        <p className="font-bold  ">Quick Link</p>
-        <li className="mt-5">Privacy Policy</li>
-        <li className="mt-5">Terms</li>
-        <li className="mt-5">FAQ</li>
-        <li>Contact</li>
+        <p className="font-bold  text-[1vw] ">Quick Link</p>
+        <li className="mt-5 text-[1vw]">Privacy Policy</li>
+        <li className="mt-5 text-[1vw]">Terms</li>
+        <li className="mt-5 text-[1vw]">FAQ</li>
+        <li className="text-[1vw]">Contact</li>
     
       </ul>
       <div className="">
-        <p className="font-bold ">Download App</p>  
+        <p className="font-bold  text-[1vw]">Download App</p>  
         <div className="flex justify-between gap-2 py-5"> 
-          <Image  src='/Qrcode.png' alt="pizza" width={100} height={50} />
+          <Image  src='/Qrcode.png' alt="pizza" width={0} height={0}
+            sizes="100vw"
+            style={{ width: '100%',  }}  />
 
-      <div className="">  <Image  src='/playstor.png' alt="pizza" width={100} height={50} />
+      <div className="">  <Image  src='/playstor.png' alt="pizza" width={0} height={0}
+        sizes="100vw"
+        style={{ width: '100%',  }}  />
       <br />
-        <Image  src='/istor.png' alt="pizza" width={100} height={50} /></div>
+        <Image  src='/istor.png' alt="pizza" width={0} height={0} 
+          sizes="100vw"
+          style={{ width: '100%',  }} /></div>
        
 
       
