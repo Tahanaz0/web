@@ -19,7 +19,7 @@ function Homepage() {
             <li>Health & Beauty</li>
           </ul></div>
         <div className=' pl-10'>
-          <Image src='/mainn.png ' width={0} alt="main" height={0}     sizes="100vw"
+          <Image src='/mainn.png' width={0} alt="main" height={0}     sizes="100vw"
      style={{ width: '100%' }} />
     
 
@@ -29,7 +29,7 @@ function Homepage() {
       </div>
 
 <div className='w-full h-48 relative'>
-    <Image src='/iphone.png ' width={0} alt="main" height={0}  className='absolute right-24 object-contain top-[-20%]'
+    <Image src='/iphone.png' width={0} alt="main" height={0}  className='absolute right-24 object-contain top-[-20%]'
         sizes="100vw"
      style={{ width: '30%' }}/>
 </div>
@@ -80,7 +80,7 @@ function Homepage() {
     <div className="bg-[#F5F5F5] h-[70%] w-[20vw] py-5 relative flex justify-center items-cente hover:translate-x-2" >
       <Image src="/game.png" width={0} height={0} alt='HAVIT HV-G92 Gamepad' 
        sizes="100vw"
-     style={{ width: '75%' }} />
+     style={{ width: '80%' }} />
       <Image src="/heart.png" width={0} height={0} className="absolute top-4 right-4" alt="heart icon" 
        sizes="100vw"
      style={{ width: '8%' }} />
@@ -396,7 +396,7 @@ function Homepage() {
 
   <div className="w-1/4 p-4">
     <div className="bg-[#F5F5F5] h-56 relative flex justify-center items-center">
-      <Image src="/lap.png" width={0} height={0} alt='S-Series Comfort Chair' sizes="100vw"
+      <Image src="/cosmetics.png" width={0} height={0} alt='S-Series Comfort Chair' sizes="100vw"
      style={{ width: '68%' }}/>
       <Image src="/heart.png" width={0} height={0} className="absolute top-2 right-2" alt="heart icon" sizes="100vw"
      style={{ width: '8%' }}/>
