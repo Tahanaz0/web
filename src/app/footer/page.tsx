@@ -6,7 +6,7 @@ function Footer (){
     return(
       <div>
        
-        <div className='footer  bg-[#000000]  text-white h-80 '>
+        <div className='footer  bg-[#000000]  text-white h-[25vw] '>
       <div className="flex justify-around py-5  gap-4">
       <ul className="">
         <p className="font-bold  text-[1vw]">Exclusive</p>

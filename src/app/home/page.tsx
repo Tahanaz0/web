@@ -171,32 +171,32 @@ function Homepage() {
           </div>
         </div>
         <div className='flex flex-col sm:flex-row justify-evenly border-b-2 border-black-500 p-10 text-center gap-4 sm:gap-2'>
-  <div className='border border-black-600 sm:w-40 md:w-28 lg:w-40'>
+  <div className='border border-black-600 sm:w-10 md:w-28 lg:w-40'>
     <Image src='/mbl.png' width={0} height={0} alt='Phone' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '60%' }} />
     <h1 className='text-sm sm:text-[1.2vw] md:text-[1vw] lg:text-[1.5vw]'>Phone</h1>
   </div>
 
-  <div className='border border-black-600 sm:w-40 md:w-28 lg:w-40'>
+  <div className='border border-black-600 sm:w-10 md:w-28 lg:w-40'>
     <Image src='/comp.png' width={0} height={0} alt='Computer' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '50%' }} />
     <h1 className='text-sm sm:text-[1.2vw] md:text-[1vw] lg:text-[1.5vw]'>Computer</h1>
   </div>
 
-  <div className='border border-black-600 sm:w-20 md:w-28 lg:w-40'>
+  <div className='border border-black-600 sm:w-10 md:w-28 lg:w-40'>
     <Image src='/SmartWatch.png' width={0} height={0} alt='Smart Watch' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '50%' }} />
     <h1 className='text-sm sm:text-[1.2vw] md:text-[1vw] lg:text-[1.5vw]'>Smart Watch</h1>
   </div>
 
-  <div className='bg-red-500 text-white sm:w-20 md:w-28 lg:w-40'>
+  <div className='bg-red-500 text-white sm:w-10 md:w-28 lg:w-40'>
     <Image src='/Camera.png' width={0} height={0} alt='Camera' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '50%' }} />
     <h1 className='text-sm sm:text-[1.2vw] md:text-[1vw] lg:text-[1.5vw]'>Camera</h1>
   </div>
 
-  <div className='border border-black-600 sm:w-20 md:w-28 lg:w-40'>
+  <div className='border border-black-600 sm:w-10 md:w-28 lg:w-40'>
     <Image src='/Headphone.png' width={0} height={0} alt='Head Phone' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '50%' }} />
     <h1 className='text-sm sm:text-[1.2vw] md:text-[1vw] lg:text-[1.5vw]'>Head Phone</h1>
   </div>
 
-  <div className='border border-black-600 sm:w-20 md:w-28 lg:w-40'>
+  <div className='border border-black-600 sm:w-10 md:w-28 lg:w-40'>
     <Image src='/plus.png' width={0} height={0} alt='Game' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '50%' }} />
     <h1 className='text-sm sm:text-[1.2vw] md:text-[1vw] lg:text-[1.5vw]'>Game</h1>
   </div>
@@ -477,9 +477,12 @@ function Homepage() {
 
   <div className="w-1/4 p-4">
     <div className="bg-[#F5F5F5] h-[20vw] relative flex justify-center items-center">
-      <Image src="/rem.png" width={150} height={150} alt='IPS LCD Gaming Monitor' />
-      <Image src="/heart.png" width={24} height={24} className="absolute top-2 right-2" alt="heart icon" />
-      <Image src="/Eye.png" width={24} height={24} className="absolute top-10 right-2" alt="eye icon" />
+      <Image src="/rem.png" width={0} height={0} alt='IPS LCD Gaming Monitor'sizes="100vw"
+     style={{ width: '68%' }} />
+      <Image src="/heart.png" width={0} height={0} className="absolute top-2 right-2" alt="heart icon" sizes="100vw"
+     style={{ width: '8%' }}/>
+      <Image src="/Eye.png" width={0} height={0} className="absolute top-10 right-2" alt="eye icon"sizes="100vw"
+     style={{ width: '8%' }} />
       <button className='bg-green-500 text-white py-1 px-3 text-[1vw] h-[10%] w-[8vw] absolute top-3 left-3 rounded-md'>JS -40%</button>
 
     </div>
@@ -502,9 +505,15 @@ function Homepage() {
 
   <div className="w-1/4 p-4">
     <div className="bg-[#F5F5F5] h-[20vw] relative flex justify-center items-center">
-      <Image src="/jack.png" width={100} height={100} alt='S-Series Comfort Chair' />
-      <Image src="/heart.png" width={24} height={24} className="absolute top-2 right-2" alt="heart icon" />
-      <Image src="/Eye.png" width={24} height={24} className="absolute top-10 right-2" alt="eye icon" />
+      <Image src="/jack.png" width={0} height={0} alt='S-Series Comfort Chair'
+      sizes="100vw"
+     style={{ width: '68%' }} />
+      <Image src="/heart.png" width={0} height={0} className="absolute top-2 right-2" alt="heart icon"
+      sizes="100vw"
+     style={{ width: '8%' }} />
+      <Image src="/Eye.png" width={0} height={0} className="absolute top-10 right-2" alt="eye icon"
+      sizes="100vw"
+     style={{ width: '8%' }} />
     </div>
     <p className='text-[1.5vw]'>S-Series Comfort Chair</p>
     <p className='text-[1.5vw]'>$120</p>
@@ -529,25 +538,25 @@ function Homepage() {
 </div>
    
       
-<div> <div className='flex justify-evenly'>
-      <div>   <Image src="/frame1.png" width={0} height={0} alt="star icon"  sizes="100vw" style={{ width: '80%' }}/></div>
-      <div>  <Image src="/frame.png" width={0} height={0} alt="star icon"     sizes="100vw" style={{ width: '80%' }} /></div>
+<div> <div className='flex justify-center'>
+      <div>   <Image src="/frame1.png" width={0} height={0} alt="star icon"  sizes="100vw" style={{ width: '90%' }}/></div>
+      <div>  <Image src="/frame.png" width={0} height={0} alt="star icon"     sizes="100vw" style={{ width: '90%' }} /></div>
      </div>
 
 
 
-<div className='flex justify-evenly'>
-  <div className='  m-9 '><Image src="/trans.png" width={0} height={0} alt="star icon"  className='ml-14'
+<div className='flex justify-center'>
+  <div className='  m-9 '><Image src="/trans.png" width={0} height={0} alt="star icon"  className=''
   sizes="100vw" style={{ width: '28%' }}/>
 <div className='mt-5'>  <h1  className='font-bold text-[1vw]  '>FREE AND FAST DELIVERY</h1>
 <h1 className='text-[1vw]'>Free delivery for all orders over $140</h1></div> </div>
 
-<div className='  m-9 '><Image src="/headphones.png" width={0} height={0} alt="star icon" className='ml-14' 
+<div className='  m-9 '><Image src="/headphones.png" width={0} height={0} alt="star icon" className='' 
 sizes="100vw" style={{ width: '28%' }}  />
  <div className='mt-5'> <h1  className='font-bold  text-center text-[1vw] '>24/7 CUSTOMER SERVICE</h1>
  <h1 className='text-[1vw]'>Friendly 24/7 customer support</h1></div></div>
 
-<div className='  m-9 '><Image src="/tick.png" width={0} height={0} alt="star icon" className='ml-14'
+<div className='  m-9 '><Image src="/tick.png" width={0} height={0} alt="star icon" className=''
 sizes="100vw" style={{ width: '28%' }}/>
  <div className='mt-5'> <h1  className='font-bold text-[1vw] ' >MONEY BACK GUARANTEE</h1>
  <p className='text-[1vw]'>We reurn money within 30 days</p></div>
