@@ -6,21 +6,21 @@ function Homepage() {
   return (
     <div>
       <div className='flex justify-around relative'>
-        <div className='w-75   px-16  border-r-2 border-black-500 '>
-          <ul className='text-[1.5vw]'>
-            <li>{`Woman's Fashion`}</li>
-            <li>{`Men's Fashion`}</li>
-            <li>Electronics</li>
-            <li>Home & Lifestyle</li>
-            <li>Medicine</li>
-            <li>Sports & Outdoor</li>
-            <li>{`Baby's & Toys`}</li>
-            <li>Groceries & Pets</li>
-            <li>Health & Beauty</li>
+        <div className='w-[35%]   px-[5%]  border-r-2 border-black-500 '>
+          <ul className=''>
+            <li className='text-[1.5vw]'>{`Woman's Fashion`}</li>
+            <li className='text-[1.5vw]'>{`Men's Fashion`}</li>
+            <li className='text-[1.5vw]'>Electronics</li>
+            <li className='text-[1.5vw]'>Home & Lifestyle</li>
+            <li className='text-[1.5vw]'>Medicine</li>
+            <li className='text-[1.5vw]'>Sports & Outdoor</li>
+            <li className='text-[1.5vw]'>{`Baby's & Toys`}</li>
+            <li className='text-[1.5vw]'>Groceries & Pets</li>
+            <li className='text-[1.5vw]'>Health & Beauty</li>
           </ul></div>
-        <div className=' pl-10'>
+        <div className=' pl-[10%]'>
           <Image src='/mainn.png' width={0} alt="main" height={0}     sizes="100vw"
-     style={{ width: '100%' }} />
+     style={{ width: '100vw' }} />
     
 
         </div>
@@ -86,9 +86,9 @@ function Homepage() {
   <div className="flex flex-col items-center sm:w-[40vw] md:w-[20vw]">
     <div className="bg-[#F5F5F5] sm:h-[30vw] h-[70%] w-full py-5 relative flex justify-center items-center hover:translate-x-2">
       <Image src="/game.png" width={0} height={0} alt='HAVIT HV-G92 Gamepad' sizes="100vw" style={{ width: '80%' }} />
-      <Image src="/heart.png" width={0} height={0} className="absolute top-4 right-4" alt="heart icon" sizes="100vw" style={{ width: '8%' }} />
-      <Image src="/Eye.png" width={0} height={0} className="absolute top-12 right-4" alt="eye icon" sizes="100vw" style={{ width: '8%' }} />
-      <button className='bg-red-500 text-white py-1 px-3 absolute text-[1vw] h-[10%] w-[8vw] top-3 left-3 rounded-md'>JS -40%</button>
+      <Image src="/heart.png" width={0} height={0} className="absolute top-4 right-1" alt="heart icon" sizes="100vw" style={{ width: '8%' }} />
+      <Image src="/Eye.png" width={0} height={0} className="absolute top-9 right-1" alt="eye icon" sizes="100vw" style={{ width: '8%' }} />
+      <button className='bg-red-500 text-white   absolute text-[1vw] h-[10%] w-[8vw] top-3 left-3 rounded-md'>JS -40%</button>
     </div>
     <p className='text-[1.5vw] sm:text-base'> HAVIT HV-G92 Gamepad</p>
     <p className='text-[1.5vw] sm:text-base'>$120</p>
@@ -103,9 +103,9 @@ function Homepage() {
   <div className="flex flex-col items-center sm:w-[40vw] md:w-[20vw]">
     <div className="bg-[#F5F5F5] sm:h-[25vw] h-[60%] w-full py-5 relative flex justify-center items-center">
       <Image src="/keyboard.png" width={0} height={0} alt='AK-900 Wired Keyboard' sizes="100vw" style={{ width: '65%' }} />
-      <Image src="/heart.png" width={0} height={0} className="absolute top-4 right-4" alt="heart icon" sizes="100vw" style={{ width: '8%' }} />
-      <Image src="/Eye.png" width={0} height={0} className="absolute top-12 right-4" alt="eye icon" sizes="100vw" style={{ width: '8%' }} />
-      <button className='bg-red-500 text-white py-1 pt-0 absolute text-[1vw] h-[10%] w-[8vw] top-3 left-3 rounded-md'>JS -40%</button>
+      <div className='flex flex-col justify-between'><Image src="/heart.png" width={0} height={0} className="absolute top-4 right-1" alt="heart icon" sizes="100vw" style={{ width: '8%' }} />
+      <Image src="/Eye.png" width={0} height={0} className="absolute top-9 right-1" alt="eye icon" sizes="100vw" style={{ width: '8%' }} /></div>
+      <button className='bg-red-500 text-white   absolute text-[1vw] h-[10%] w-[8vw] top-3 left-3 rounded-md'>JS -40%</button>
     </div>
     <button className='bg-black text-white h-[10%] w-full text-[1vw] sm:text-sm rounded-sm mt-2'>Add to cart</button>
     <p className='text-[1.5vw] sm:text-base'> AK-900 Wired Keyboard</p>
@@ -121,9 +121,9 @@ function Homepage() {
   <div className="flex flex-col items-center sm:w-[40vw] md:w-[20vw]">
     <div className="bg-[#F5F5F5] sm:h-[30vw] h-[70%] w-full py-5 relative flex justify-center items-center">
       <Image src="/tv.png" width={0} height={0} alt='IPS LCD Gaming Monitor' sizes="100vw" style={{ width: '65%' }} />
-      <Image src="/heart.png" width={0} height={0} className="absolute top-4 right-4" alt="heart icon" sizes="100vw" style={{ width: '8%' }} />
-      <Image src="/Eye.png" width={0} height={0} className="absolute top-12 right-4" alt="eye icon" sizes="100vw" style={{ width: '8%' }} />
-      <button className='bg-red-500 text-white py-1 px-3 absolute text-[1vw] h-[10%] w-[8vw] top-3 left-3 rounded-md'>JS -40%</button>
+      <Image src="/heart.png" width={0} height={0} className="absolute top-4 right-1" alt="heart icon" sizes="100vw" style={{ width: '8%' }} />
+      <Image src="/Eye.png" width={0} height={0} className="absolute top-9 right-1" alt="eye icon" sizes="100vw" style={{ width: '8%' }} />
+      <button className='bg-red-500 text-white  absolute text-[1vw] h-[10%] w-[8vw] top-3 left-3 rounded-md'>JS -40%</button>
     </div>
     <p className='text-[1.5vw] sm:text-base'>IPS LCD Gaming Monitor</p>
     <p className='text-[1.5vw] sm:text-base'>$120</p>
@@ -138,9 +138,9 @@ function Homepage() {
   <div className="flex flex-col items-center sm:w-[40vw] md:w-[20vw]">
     <div className="bg-[#F5F5F5] sm:h-[30vw] h-[70%] w-full py-5 relative flex justify-center items-center">
       <Image src="/chair.png" width={0} height={0} alt='S-Series Comfort Chair' sizes="100vw" style={{ width: '45%' }} />
-      <Image src="/heart.png" width={0} height={0} className="absolute top-4 right-4" alt="heart icon" sizes="100vw" style={{ width: '8%' }} />
-      <Image src="/Eye.png" width={0} height={0} className="absolute top-12 right-4" alt="eye icon" sizes="100vw" style={{ width: '8%' }} />
-      <button className='bg-red-500 text-white py-1 px-3 absolute text-[1vw] h-[10%] w-[8vw] top-3 left-3 rounded-md'>JS -40%</button>
+      <Image src="/heart.png" width={0} height={0} className="absolute top-4 right-1" alt="heart icon" sizes="100vw" style={{ width: '8%' }} />
+      <Image src="/Eye.png" width={0} height={0} className="absolute top-9 right-1" alt="eye icon" sizes="100vw" style={{ width: '8%' }} />
+      <button className='bg-red-500 text-white  absolute text-[1vw] h-[10%] w-[8vw] top-3 left-3 rounded-md'>JS -40%</button>
     </div>
     <p className='text-[1.5vw] sm:text-base'>S-Series Comfort Chair</p>
     <p className='text-[1.5vw] sm:text-base'>$120</p>
@@ -170,46 +170,47 @@ function Homepage() {
      style={{ width: '68%' }} ></Image> </div>
           </div>
         </div>
-        <div className='flex flex-col sm:flex-row justify-evenly border-b-2 border-black-500 p-10 text-center gap-4 sm:gap-2'>
-  <div className='border border-black-600 sm:w-10 md:w-28 lg:w-40'>
+        <div className='flex justify-evenly border-b-2 border-black-500 p-10 text-center gap-4 '>
+  <div className='border border-black-600  w-[15%]'>
     <Image src='/mbl.png' width={0} height={0} alt='Phone' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '60%' }} />
-    <h1 className='text-sm sm:text-[1.2vw] md:text-[1vw] lg:text-[1.5vw]'>Phone</h1>
+    <h1 className=' text-[1vw] '>Phone</h1>
   </div>
 
-  <div className='border border-black-600 sm:w-10 md:w-28 lg:w-40'>
-    <Image src='/comp.png' width={0} height={0} alt='Computer' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '50%' }} />
-    <h1 className='text-sm sm:text-[1.2vw] md:text-[1vw] lg:text-[1.5vw]'>Computer</h1>
+  <div className='border border-black-600 w-[15%] '>
+    <Image src='/comp.png' width={0} height={0} alt='Computer' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '60%' }} />
+    <h1 className=' text-[1vw]'>Computer</h1>
   </div>
 
-  <div className='border border-black-600 sm:w-10 md:w-28 lg:w-40'>
-    <Image src='/SmartWatch.png' width={0} height={0} alt='Smart Watch' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '50%' }} />
-    <h1 className='text-sm sm:text-[1.2vw] md:text-[1vw] lg:text-[1.5vw]'>Smart Watch</h1>
+  <div className='border border-black-600 w-[15%]'>
+    <Image src='/SmartWatch.png' width={0} height={0} alt='Smart Watch' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '60%' }} />
+    <h1 className=' text-[1vw]'>Smart Watch</h1>
   </div>
 
-  <div className='bg-red-500 text-white sm:w-10 md:w-28 lg:w-40'>
-    <Image src='/Camera.png' width={0} height={0} alt='Camera' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '50%' }} />
-    <h1 className='text-sm sm:text-[1.2vw] md:text-[1vw] lg:text-[1.5vw]'>Camera</h1>
+  <div className='bg-red-500 text-white w-[15%]'>
+    <Image src='/Camera.png' width={0} height={0} alt='Camera' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '60%' }} />
+    <h1 className=' text-[1vw]'>Camera</h1>
   </div>
 
-  <div className='border border-black-600 sm:w-10 md:w-28 lg:w-40'>
-    <Image src='/Headphone.png' width={0} height={0} alt='Head Phone' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '50%' }} />
-    <h1 className='text-sm sm:text-[1.2vw] md:text-[1vw] lg:text-[1.5vw]'>Head Phone</h1>
+  <div className='border border-black-600 w-[15%]'>
+    <Image src='/Headphone.png' width={0} height={0} alt='Head Phone' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '60%' }} />
+    <h1 className=' text-[1vw]'>Head Phone</h1>
   </div>
 
-  <div className='border border-black-600 sm:w-10 md:w-28 lg:w-40'>
-    <Image src='/plus.png' width={0} height={0} alt='Game' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '50%' }} />
-    <h1 className='text-sm sm:text-[1.2vw] md:text-[1vw] lg:text-[1.5vw]'>Game</h1>
+  <div className='border border-black-600 w-[15%]'>
+    <Image src='/plus.png' width={0} height={0} alt='Game' className='pl-5 sm:m-5' sizes="100vw" style={{ width: '60%' }} />
+    <h1 className=' text-[1vw]'>Game</h1>
   </div>
 </div>
 
       </div>
 
       <div>
-        <div className='flex justify-between'> <h1 className='font-bold text-[1.5vw] m-5'>Best Selling Products</h1>
+        <div className='flex justify-between'> 
+          <h1 className='font-bold text-[1.5vw] m-5'>Best Selling Products</h1>
           <div className='text-center m-5'> <button className='bg-red-500 text-center  text-[1vw] h-[2.5vw] w-[8vw] text-white rounded-md'>view All </button></div>
 
         </div>
-        <div className='flex gap-10 pl-5  mb-5   '>
+        <div className='flex justify-between px-5  mb-5   '>
 
           <div ><div className="bg-[#F5F5F5] w-[20vw] h-[65%] pt-7 pl-8 "> <Image src="/jacket.png" width={0} height={0} alt='chair'  sizes="100vw"
      style={{ width: '68%' }}  ></Image></div>
