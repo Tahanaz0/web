@@ -5,7 +5,7 @@ import "../style/style.css"
 function Homepage() {
   return (
     <div>
-      <div className='flex justify-around relative'>
+      <div className='flex justify-around relative mt-8'>
       <div className='w-[35%] px-[5%] border-r-2 border-black-500'>
   <ul>
     <li className='text-[1.5vw] mb-3'>{`Woman's Fashion`}</li>
@@ -20,7 +20,7 @@ function Homepage() {
   </ul>
 </div>
 
-        <div className=' pl-[10%]'>
+        <div className=' pl-[5%]'>
           <Image src='/mainn.png' width={0} alt="main" height={0}     sizes="100vw"
      style={{ width: '100vw' }} />
     
@@ -47,29 +47,29 @@ function Homepage() {
  
       <div className=' flex justify-between items-center p-10'>
   <div>
-    <h1 className='font-bold text-[1.5vw]'>Flash Sale</h1>
+    <h1 className='font-bold text-[2vw]'>Flash Sale</h1>
   </div>
 
   
   <div className="flex gap-2">
     <div className=" p-2 rounded"> 
       <p className="text-[1vw]">Days</p>
-      <span className="font-bold text-[1.5vw]">02</span>
+      <span className="font-bold text-[2vw]">03</span>
      
     </div>
     <div className=" p-2 rounded">
       <p className="text-[1vw]">Hours</p>
-      <span className="font-bold text-[1.5vw]">12</span>
+      <span className="font-bold text-[2vw]">23</span>
       
     </div>
     <div className=" p-2 rounded"> 
       <p className="text-[1vw]">Minutes</p>
-      <span className="font-bold text-[1.5vw]">30</span>
+      <span className="font-bold text-[2vw]">19</span>
      
     </div>
     <div className=" p-2 rounded">
       <p className="text-[1vw]">Seconds</p>
-      <span className="font-bold text-[1.5vw]">45</span>
+      <span className="font-bold text-[2vw]">56</span>
       
     </div>
   </div>
@@ -164,7 +164,7 @@ function Homepage() {
       </div>
       <div>
         <div className='flex justify-between text-[1.5vw] items-center p-7'>
-          <div className='font-bold text-[1.5vw] mt-5'>Browse By Category</div>
+          <div className='font-bold text-[2vw] mt-5'>Browse By Category</div>
           <div className='flex gap-2'>
             <div><Image src='/Arrow.png' width={0} height={0} alt='aero'  sizes="100vw"
      style={{ width: '100%' }} ></Image></div>
@@ -208,7 +208,7 @@ function Homepage() {
 
       <div>
         <div className='flex justify-between p-10'> 
-          <h1 className='font-bold text-[1.5vw] m-5'>Best Selling Products</h1>
+          <h1 className='font-bold text-[2vw] m-5'>Best Selling Products</h1>
           <div className='text-center m-5'> <button className='bg-red-500 text-center  text-[1vw] h-[2.5vw] w-[9vw] text-white rounded-md hover:bg-red-600'>view All </button></div>
 
         </div>
@@ -313,7 +313,7 @@ function Homepage() {
 
   <div className=' flex justify-between items-center p-11'>
   <div>
-    <h1 className='font-bold text-[3vw]'>Explore Our Product</h1>
+    <h1 className='font-bold text-[2vw]'>Explore Our Product</h1>
   </div>
   <div className=' sm:flex-wrap flex gap-2'>
     <div>
@@ -500,7 +500,7 @@ function Homepage() {
 <div className='p-8'> 
 <h1 className='font-bold text-[3vw]'>New Arrival</h1>
   
-  <div className='flex justify-center gap-3'>
+  <div className='flex justify-center gap-3 mt-5'>
       <div>   <Image src="/frame1.png" width={0} height={0} alt="star icon"  sizes="100%" style={{ width: '100vw' }}/></div>
       <div>  <Image src="/frame.png" width={0} height={0} alt="star icon"     sizes="100%" style={{ width: '100vw' }} /></div>
      </div>

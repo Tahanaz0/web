@@ -6,14 +6,15 @@ function Footer (){
     return(
       <div>
        
-        <div className='footer  bg-[#000000]  text-white h-[25vw] '>
+        <div className='footer  bg-[#000000]  text-white p-28 '>
       <div className="flex justify-around py-5  gap-4">
       <ul className="">
         <p className="font-bold  text-[1vw]">Exclusive</p>
         
         <li className="mt-5 text-[1vw]">Subscribe</li>
         <li className="mt-5 text-[1vw]">Get 10% off your first order</li>
-        <li> <button className="border boder-solid-1 text-[1vw]">Enter your email</button></li>
+        <div className="flex w-[50%]"><button className="border boder-solid-1 text-[1vw]">Enter your email
+            </button><Image src='/aerrow.png' alt="aerow" width={10}height={10} ></Image></div>
         </ul>
      
 
