@@ -37,9 +37,9 @@ function Contact(){
 
         <div className="w-full bg-white p-4 shadow-lg rounded-lg">
             <div className="flex gap-x-2">
-                <input type="text" placeholder="Your Name" className="bg-[#F5F5F5] p-2 focus:outline-none border-2 focus:border-white rounded-md w-[40%]" />
-                <input type="text" placeholder="Your Email" className="bg-[#F5F5F5] p-2 focus:outline-none border-2 focus:border-white rounded-md w-[40%]" />
-                <input type="text" placeholder="Your Phone number" className="bg-[#F5F5F5] p-2 flex-1 focus:outline-none border-2 focus:border-white rounded-md w-[40%]" />
+                <input type="text" placeholder="Your Name" className="bg-[#F5F5F5] p-4 focus:outline-none border-2 focus:border-white rounded-md w-[40%]" />
+                <input type="text" placeholder="Your Email" className="bg-[#F5F5F5] p-4 focus:outline-none border-2 focus:border-white rounded-md w-[40%]" />
+                <input type="text" placeholder="Your Phone number" className="bg-[#F5F5F5] p-4 flex-1 focus:outline-none border-2 focus:border-white rounded-md w-[40%]" />
             </div>
             <input type="text" placeholder="Your Feedback" className="bg-[#F5F5F5] p-2 rounded-md  h-44 focus:outline-none border-2 focus:border-white mt-2 w-[100%]" />
  <button className='bg-red-500 text-white py-1 px-3 text-[1vw]  ml-[80%] mt-14 rounded-md'>Send Message</button>
