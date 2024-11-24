@@ -83,26 +83,26 @@ function Header() {
         )}
       </div>
 
-      {/* Horizontal menu for medium and larger screens */}
+    {/* md screen */}
       <div className="hidden md:flex justify-between items-center gap-4">
-        <ul className="flex gap-4">
-          <li className="text-[1.5vw] hover:bg-[#F5F5F5]">
-            <Link href="home" className="p-4">
+        <ul className="flex gap-8   mr-14 ">
+          <li className="text-[1.5vw]  hover:bg-[#F5F5F5]">
+            <Link href="home" className=" p-1 rounded-md hover:border-2 hover:border-black ">
               Home
             </Link>
           </li>
           <li className="text-[1.5vw] hover:bg-[#F5F5F5]">
-            <Link href="about" className="p-4">
+            <Link href="about" className=" p-1 rounded-md hover:border-2 hover:border-black">
               About
             </Link>
           </li>
           <li className="text-[1.5vw] hover:bg-[#F5F5F5]">
-            <Link href="contact" className="p-4">
+            <Link href="contact" className="p-1 rounded-md hover:border-2 hover:border-black">
               Contact
             </Link>
           </li>
-          <li className="text-[1.5vw] hover:bg-[#F5F5F5]">
-            <Link href="signup" className="p-4">
+          <li className="text-[1.5vw] hover:bg-[#F5F5F5] ">
+            <Link href="signup" className="p-1 rounded-md hover:border-2 hover:border-black">
               Sign up
             </Link>
           </li>

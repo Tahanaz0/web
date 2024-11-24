@@ -70,30 +70,30 @@ function Homepage() {
 
 
       <div className="border-b-2 border-black-500">
-        <div className=' flex justify-between items-center p-10'>
+        <div className=' flex justify-between items-center p-1'>
           <div>
-            <h1 className=' sm:font-bold sm:text-2xl md:font-bold text-[2vw]'>Flash Sale</h1>
+            <h1 className=' sm:font-bold sm:text-2xl md:text-2xl font-bold '>Flash Sale</h1>
           </div>
 
 
           <div className="flex gap-2">
             <div className=" p-2 rounded">
-              <p className="sm:text-1xl md:text-[1vw]">Days</p>
+              <p className="sm:text-1xl md:text-xl">Days</p>
               <span className="font-bold sm:2xl md:text-[2vw]">03</span>
 
             </div>
             <div className=" p-2 rounded">
-              <p className="sm:text-1xl md:text-[1vw]">Hours</p>
+              <p className="sm:text-1xl md:text-xl">Hours</p>
               <span className="font-bold sm:text-1xl md:text-[2vw]">23</span>
 
             </div>
             <div className=" p-2 rounded">
-              <p className=" sm:text-1xl md:text-[1vw]">Minutes</p>
-              <span className="font-boldsm:text-1xl md:text-[2vw]">19</span>
+              <p className=" sm:text-1xl md:text-xl">Minutes</p>
+              <span className="font-bold sm:text-1xl md:text-[2vw]">19</span>
 
             </div>
             <div className=" p-2 rounded">
-              <p className="sm:text-1xl md:text-[1vw]">Seconds</p>
+              <p className="sm:text-1xl md:text-xl">Seconds</p>
               <span className="font-bold sm:text-1xl md:text-[2vw]">56</span>
 
             </div>
@@ -113,22 +113,22 @@ function Homepage() {
           </div>
         </div>
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 mx-auto justify-center  gap-4 sm:gap-2 sm:text-sm'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 mx-auto justify-center   '>
           {/* Product 1 */}
-          <div className="flex flex-col sm:w-[80%]  sm:items-center">
-            <div className="bg-[#F5F5F5] sm:h-[30vw] md:h-[70%] w-full py-5  relative flex justify-center hover:translate-x-2">
-              <Image src="/game.png" width={0} height={0} alt="HAVIT HV-G92 Gamepad" sizes="100vw" className='w-40' />
+          <div className="flex flex-col p-5  sm:items-center">
+            <div className="bg-[#F5F5F5]   py-5 px-6  relative flex justify-center hover:translate-x-2">
+              <Image src="/game.png" width={0} height={0} alt="HAVIT HV-G92 Gamepad" sizes="100vw" className='w-[100%] p-16' />
               <Image src="/heart.png" width={0} height={0} className="absolute top-4 right-1" alt="heart icon" sizes="100vw" style={{ width: '8%' }} />
-              <Image src="/Eye.png" width={0} height={0} className="absolute top-9 right-1" alt="eye icon" sizes="100vw" style={{ width: '8%' }} />
-              <button className="bg-red-500 text-white absolute sm:text-[2vw] md:text-[1vw] sm:h-[12%] sm:w-[15vw] md:h-[10%] md:w-[7vw] top-3 left-3 rounded-md">
+              <Image src="/Eye.png" width={0} height={0} className="absolute top-14 right-1" alt="eye icon" sizes="100vw" style={{ width: '8%' }} />
+              <button className="bg-red-500 text-white absolute sm:text-[2vw] md:text-[1vw] p-1 top-3 left-3 rounded-md">
                 JS -40%
               </button>
 
             </div>
-            <p className="text-[1.5vw] py-4 sm:text-base">HAVIT HV-G92 Gamepad</p>
+            <p className="sm:2xl md:text-[1.5vw] py-4">HAVIT HV-G92 Gamepad</p>
             <div className="flex gap-3">
-              <p className="text-[1.5vw] sm:text-base text-red-600">$120</p>
-              <p className="text-light-blue-600 text-[1.5vw] sm:text-base">$160</p>
+              <p className="text-xl sm:2xl md:text-[1.5vw] text-red-600">$120</p>
+              <p className="text-xl sm:2xl md:text-[1.5vw] ">$160</p>
             </div>
             <div className="flex space-x-1 mt-2">
               {[...Array(5)].map((_, i) => (
@@ -148,23 +148,22 @@ function Homepage() {
           </div>
 
           {/* Product 2 */}
-          <div className="flex flex-col sm:w-[80%]  sm:items-center">
-            <div className="bg-[#F5F5F5] sm:h-[25vw] md:h-[60%] w-full py-5 relative flex justify-center items-center hover:translate-x-2">
-              <Image src="/keyboard.png" width={0} height={0} alt="AK-900 Wired Keyboard" sizes="100vw" className='w-44' />
-              <div className="flex flex-col justify-between">
-                <Image src="/heart.png" width={0} height={0} className="absolute top-4 right-1" alt="heart icon" sizes="100vw" style={{ width: '8%' }} />
-                <Image src="/Eye.png" width={0} height={0} className="absolute top-9 right-1" alt="eye icon" sizes="100vw" style={{ width: '8%' }} />
-              </div>
-              <button className="bg-red-500 text-white absolute sm:text-[2vw] md:text-[1vw] sm:h-[12%] sm:w-[15vw] md:h-[10%] md:w-[7vw] top-3 left-3 rounded-md">
+          <div className="flex flex-col p-5  sm:items-center">
+            <div className="bg-[#F5F5F5]   py-5 px-6  relative flex justify-center hover:translate-x-2">
+              <Image src="/keyboard.png" width={0} height={0} alt="HAVIT HV-G92 Gamepad" sizes="100vw" className='w-[100%] p-16' />
+              <Image src="/heart.png" width={0} height={0} className="absolute top-4 right-1" alt="heart icon" sizes="100vw" style={{ width: '8%' }} />
+              <Image src="/Eye.png" width={0} height={0} className="absolute top-14 right-1" alt="eye icon" sizes="100vw" style={{ width: '8%' }} />
+              <button className="bg-red-500 text-white absolute sm:text-[2vw] md:text-[1vw] p-1 top-3 left-3 rounded-md">
                 JS -40%
               </button>
 
             </div>
-            <button className="bg-black text-white h-[10%] w-full text-[1vw] sm:text-sm rounded-sm">Add to cart</button>
-            <p className="text-[1.5vw] py-4 sm:text-base">AK-900 Wired Keyboard</p>
+            
+            <button className="bg-black text-white   text-xl sm:text-xl px-24 p-3 rounded-sm">Add to cart</button>
+            <p className="sm:2xl md:text-[1.5vw] py-4">AK-900 Wired Keyboard</p>
             <div className="flex gap-3">
-              <p className="text-[1.5vw] sm:text-base text-red-600">$960</p>
-              <p className="text-light-blue-600 text-[1.5vw] sm:text-base">$160</p>
+              <p className="text-xl sm:2xl md:text-[1.5vw] text-red-600">$960</p>
+              <p className="text-xl sm:2xl md:text-[1.5vw] ">$160</p>
             </div>
             <div className="flex space-x-1 mt-2">
               {[...Array(5)].map((_, i) => (
@@ -184,20 +183,20 @@ function Homepage() {
           </div>
 
           {/* Product 3 */}
-          <div className="flex flex-col sm:w-[80%]  sm:items-center">
-            <div className="bg-[#F5F5F5] sm:h-[30vw] md:h-[70%] w-full py-5 relative flex justify-center items-center hover:translate-x-2">
-              <Image src="/tv.png" width={0} height={0} alt="IPS LCD Gaming Monitor" sizes="100vw" className='w-44 p-5' />
+          <div className="flex flex-col p-5  sm:items-center">
+            <div className="bg-[#F5F5F5]   py-7 px-6  relative flex justify-center hover:translate-x-2">
+              <Image src="/tv.png" width={0} height={0} alt="HAVIT HV-G92 Gamepad" sizes="100vw" className='w-[100%] p-20' />
               <Image src="/heart.png" width={0} height={0} className="absolute top-4 right-1" alt="heart icon" sizes="100vw" style={{ width: '8%' }} />
-              <Image src="/Eye.png" width={0} height={0} className="absolute top-9 right-1" alt="eye icon" sizes="100vw" style={{ width: '8%' }} />
-              <button className="bg-red-500 text-white absolute sm:text-[2vw] md:text-[1vw] sm:h-[12%] sm:w-[15vw] md:h-[10%] md:w-[7vw] top-3 left-3 rounded-md">
+              <Image src="/Eye.png" width={0} height={0} className="absolute top-14 right-1" alt="eye icon" sizes="100vw" style={{ width: '8%' }} />
+              <button className="bg-red-500 text-white absolute sm:text-[2vw] md:text-[1vw] p-1 top-3 left-3 rounded-md">
                 JS -40%
               </button>
 
             </div>
-            <p className="text-[1.5vw] sm:text-base py-4">IPS LCD Gaming Monitor</p>
+              <p className="sm:2xl md:text-[1.5vw] py-4">IPS LCD Gaming Monitor</p>
             <div className="flex gap-3">
-              <p className="text-[1.5vw] sm:text-base text-red-600">$120</p>
-              <p className="text-light-blue-600 text-[1.5vw] sm:text-base">$160</p>
+              <p className="text-xl sm:2xl md:text-[1.5vw] text-red-600">$120</p>
+              <p className="text-xl sm:2xl md:text-[1.5vw] ">$160</p>
             </div>
             <div className="flex space-x-1 mt-2">
               {[...Array(5)].map((_, i) => (
@@ -217,20 +216,20 @@ function Homepage() {
           </div>
 
           {/* Product 4 */}
-          <div className="flex flex-col sm:w-[80%]  sm:items-center">
-            <div className="bg-[#F5F5F5] sm:h-[30vw] md:h-[70%] w-full py-5 relative flex justify-center items-center hover:translate-x-2">
-              <Image src="/chair.png" width={0} height={0} alt="S-Series Comfort Chair" sizes="100vw" className='w-40 p-5' />
+          <div className="flex flex-col p-5  sm:items-center">
+          <div className="bg-[#F5F5F5]   py-6 px-10 relative flex justify-center hover:translate-x-2">
+              <Image src="/chair.png" width={0} height={0} alt="HAVIT HV-G92 Gamepad" sizes="100vw" className='w-[100%] p-14' />
               <Image src="/heart.png" width={0} height={0} className="absolute top-4 right-1" alt="heart icon" sizes="100vw" style={{ width: '8%' }} />
-              <Image src="/Eye.png" width={0} height={0} className="absolute top-9 right-1" alt="eye icon" sizes="100vw" style={{ width: '8%' }} />
-              <button className="bg-red-500 text-white absolute sm:text-[2vw] md:text-[1vw] sm:h-[12%] sm:w-[15vw] md:h-[10%] md:w-[7vw] top-3 left-3 rounded-md">
+              <Image src="/Eye.png" width={0} height={0} className="absolute top-14 right-1" alt="eye icon" sizes="100vw" style={{ width: '8%' }} />
+              <button className="bg-red-500 text-white absolute sm:text-[2vw] md:text-[1vw] p-1 top-3 left-3 rounded-md">
                 JS -40%
               </button>
 
             </div>
-            <p className="text-[1.5vw] sm:text-base py-4">S-Series Comfort Chair</p>
+            <p className="sm:2xl md:text-[1.5vw] py-4">S-Series Comfort Chair</p>
             <div className="flex gap-3">
-              <p className="text-[1.5vw] sm:text-base text-red-600">$120</p>
-              <p className="text-light-blue-600 text-[1.5vw] sm:text-base">$160</p>
+              <p className="text-xl sm:2xl md:text-[1.5vw] text-red-600">$120</p>
+              <p className="text-xl sm:2xl md:text-[1.5vw] ">$160</p>
             </div>
             <div className="flex space-x-1 mt-2">
               {[...Array(5)].map((_, i) => (
@@ -252,7 +251,7 @@ function Homepage() {
 
         {/* View All Products Button */}
         <div className="text-center my-16">
-          <button className="bg-red-500 text-[1vw] h-[3vw] w-[14vw] text-white rounded-md hover:bg-red-600">View All Products</button>
+          <button className="bg-red-500 text-xl sm:text-xl p-2 text-white rounded-md hover:bg-red-600">View All Products</button>
         </div>
       </div>
 
@@ -301,23 +300,22 @@ function Homepage() {
 
       <div>
         <div className='flex justify-between p-10'>
-          <h1 className='font-bold text-2xl sm:font-bold md:font-bold md:text-xl'>Best Selling Products</h1>
-          <div className='text-center m-5'>
-            <button className='bg-red-500 text-center text-[1vw] h-[2.5vw] w-[9vw] text-white rounded-md hover:bg-red-600'>
+          <h1 className='font-bold text-2xl sm:font-bold md:font-bold md:text-2xl'>Best Selling Products</h1>
+          <div className='pb-5 '>
+            <button className='bg-red-500 text-center text-xl sm:text-2xl  p-1 px-3  text-white rounded-md hover:bg-red-600'>
               View All
             </button>
           </div>
         </div>
 
-        {/* Flex container with responsive layout */}
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  mx-auto justify-center gap-5 mb-5'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  '>
 
           {/* Product 1 */}
-          <div className='flex flex-col items-center'>
-            <div className="bg-[#F5F5F5] w-[20vw] h-[65%] pt-7 pl-8 hover:translate-x-2">
-              <Image src="/jacket.png" width={0} height={0} alt='jacket' sizes="100vw" style={{ width: '68%' }} />
+          <div className='flex flex-col p-6 items-center'>
+            <div className="bg-[#F5F5F5]  p-24 px-28 hover:translate-x-2">
+              <Image src="/jacket.png" width={0} height={0} alt='jacket' sizes="100vw" style={{ width: '100%' }} />
             </div>
-            <p className='sm:2xl md:text-[1.5vw] py-4'>HAVIT HV-G92 Gamepad</p>
+            <p className='sm:2xl md:text-[1.5vw] py-4 '>HAVIT HV-G92 Gamepad</p>
             <div className='flex gap-3'>
               <p className='sm:2xl md:text-[1.5vw] text-red-600'>$120</p>
               <p className='sm:2xl md:text-[1.5vw]'>$160</p>
@@ -340,9 +338,9 @@ function Homepage() {
           </div>
 
           {/* Product 2 */}
-          <div className='flex flex-col items-center'>
-            <div className="bg-[#F5F5F5] w-[20vw] h-[65%] pt-7 pl-8 hover:translate-x-2">
-              <Image src="/bag.png" width={0} height={0} alt='keyboard' sizes="100vw" style={{ width: '68%' }} />
+          <div className='flex flex-col p-7 items-center'>
+            <div className="bg-[#F5F5F5] p-28 px-28 hover:translate-x-2">
+              <Image src="/bag.png" width={0} height={0} alt='keyboard' sizes="100vw" style={{ width: '100%' }} />
             </div>
             <p className='sm:2xl md:text-[1.5vw] py-4'>AK-900 Wired Keyboard</p>
             <div className='flex gap-3'>
@@ -367,9 +365,9 @@ function Homepage() {
           </div>
 
           {/* Product 3 */}
-          <div className='flex flex-col items-center'>
-            <div className="bg-[#F5F5F5] w-[20vw] h-[65%] pt-14 pl-12 hover:translate-x-2">
-              <Image src="/sound.png" width={0} height={0} alt='monitor' sizes="100vw" style={{ width: '68%' }} />
+          <div className='flex flex-col p-7 items-center'>
+            <div className="bg-[#F5F5F5] p-28 px-24 hover:translate-x-2">
+              <Image src="/sound.png" width={0} height={0} alt='monitor' sizes="100vw" style={{ width: '100%' }} />
             </div>
             <p className='sm:2xl md:text-[1.5vw] py-4'>IPS LCD Gaming Monitor</p>
             <div className='flex gap-3'>
@@ -394,9 +392,9 @@ function Homepage() {
           </div>
 
           {/* Product 4 */}
-          <div className='flex flex-col items-center'>
-            <div className="bg-[#F5F5F5] w-[20vw] h-[65%] pt-7 pl-8 hover:translate-x-2">
-              <Image src="/table.png" width={0} height={0} alt='chair' sizes="100vw" style={{ width: '68%' }} />
+          <div className='flex flex-col p-7 items-center'>
+            <div className="bg-[#F5F5F5] p-20 px-24 hover:translate-x-2">
+              <Image src="/table.png" width={0} height={0} alt='chair' sizes="100vw" style={{ width: '100%' }} />
             </div>
             <p className='sm:2xl md:text-[1.5vw] py-4'>S-Series Comfort Chair</p>
             <div className='flex gap-3'>
@@ -426,7 +424,7 @@ function Homepage() {
       <div>
 
 
-        <div className='flex sm:flex-col sm:m-10   md:flex-row justify-between  bg-black w-[90%] md:m-16 p-16 '>
+        <div className='flex flex-col sm:flex-col sm:m-10   md:flex-row justify-between  bg-black w-[90%] md:m-16 p-16 '>
           <div className='p-10'>
           <div>
   <p className="text-green-500 text-[3vw] font-bold mb-10">Categories</p>
@@ -455,7 +453,7 @@ function Homepage() {
                 <span className="font-bold text-[3vw] p-3 md:text-[1.5vw]">45</span>
               </div>
             </div>
-            <button className='bg-green-500 text-white text-[2vw] sm:w-20 md:text-[1vw] h-[15%] w-[7vw]  rounded-sm hover:bg-green-400'>Buy Now</button>
+            <button className='bg-green-500 text-white text-xl md:text-xl px-5 p-2  rounded-sm hover:bg-green-400'>Buy Now</button>
           </div>
           <div className='p-5  rounded-full'>
             <Image
@@ -505,7 +503,7 @@ function Homepage() {
               </div>
               <p className='text-2xl md:text-[1.5vw] font-bold py-4'>Bread Dry Dog Food</p>
               <div className='flex gap-4 '><p className='text-2xl md:text-[1.5vw] text-red-600'>$120</p>
-                <div className="flex p-3">
+                <div className="flex p-2">
                   {[...Array(5)].map((_, i) => (
                     <Image key={i} src="/star.png" width={0} height={0} alt="star icon" sizes="100vw" style={{ width: '100%' }} />
                   ))}
@@ -528,7 +526,7 @@ function Homepage() {
               <p className='text-2xl md:text-[1.5vw] font-bold py-4'>CANOS EOS DSLR Camera</p>
               <div className='flex gap-4 '>
                 <p className='text-2xl md:text-[1.5vw] text-red-600'>$960</p>
-                <div className="flex p-3">
+                <div className="flex p-2">
                   {[...Array(5)].map((_, i) => (
                     <Image key={i} src="/star.png" width={0} height={0} alt="star icon" sizes="100vw" style={{ width: '100%' }} />
                   ))}
@@ -548,7 +546,7 @@ function Homepage() {
               <p className='text-2xl md:text-[1.5vw] font-bold py-4'>ASUS FHD Gaming Laptop</p>
               <div className='flex gap-4 '>
                 <p className='text-2xl md:text-[1.5vw] text-red-600'>$120</p>
-                <div className="flex p-3">
+                <div className="flex p-2">
                   {[...Array(5)].map((_, i) => (
                     <Image key={i} src="/star.png" width={0} height={0} alt="star icon" sizes="100vw" style={{ width: '100%' }} />
                   ))}
@@ -567,7 +565,7 @@ function Homepage() {
               <p className='text-2xl md:text-[1.5vw] font-bold py-4'>Curology Product Sell</p>
               <div className='flex gap-4 '>
                 <p className='text-2xl md:text-[1.5vw] text-red-600'>$120</p>
-                <div className="flex p-3">
+                <div className="flex p-2">
                   {[...Array(5)].map((_, i) => (
                     <Image key={i} src="/star.png" width={0} height={0} alt="star icon" sizes="100vw" style={{ width: '100%' }} />
                   ))}
@@ -588,7 +586,7 @@ function Homepage() {
               <p className='text-2xl md:text-[1.5vw] font-bold py-4'>Kids Electric Car</p>
               <div className='flex gap-4 '>
                 <p className='text-2xl md:text-[1.5vw] text-red-500'>$120</p>
-                <div className="flex p-3">
+                <div className="flex p-2">
                   {[...Array(5)].map((_, i) => (
                     <Image key={i} src="/star.png" width={0} height={0} alt="star icon" sizes="100vw" style={{ width: '100%' }} />
                   ))}
@@ -609,7 +607,7 @@ function Homepage() {
               <p className='text-2xl md:text-[1.5vw] font-bold py-4'>Jr.Zoom Soccer Cleats</p>
               <div className='flex gap-4 '>
                 <p className='text-2xl md:text-[1.5vw] text-red-600'>$960</p>
-                <div className="flex p-3">
+                <div className="flex p-2">
                   {[...Array(5)].map((_, i) => (
                     <Image key={i} src="/star.png" width={0} height={0} alt="star icon" sizes="100vw" style={{ width: '100%' }} />
                   ))}
@@ -631,7 +629,7 @@ function Homepage() {
               <p className='text-2xl md:text-[1.5vw] font-bold py-4 '>GP11 Shooter USB Gamepade</p>
               <div className='flex gap-4 '>
                 <p className='text-2xl md:text-[1.5vw] text-red-600'>$120</p>
-                <div className="flex p-3">
+                <div className="flex p-2">
                   {[...Array(5)].map((_, i) => (
                     <Image key={i} src="/star.png" width={0} height={0} alt="star icon" sizes="100vw" style={{ width: '100%' }} />
                   ))}
@@ -654,7 +652,7 @@ function Homepage() {
               <p className='text-2xl md:text-[1.5vw] font-bold py-4'>Quilted Satin Jacket</p>
               <div className='flex gap-4 '>
                 <p className='text-2xl md:text-[1.5vw] text-red-600'>$120</p>
-                <div className="flex p-3">
+                <div className="flex p-2">
                   {[...Array(5)].map((_, i) => (
                     <Image key={i} src="/star.png" width={0} height={0} alt="star icon" sizes="100vw" style={{ width: '100%' }} />
                   ))}
@@ -670,10 +668,10 @@ function Homepage() {
       </div>
 
 
-      <div className='p-8'>
+      <div className='p-8 '>
         <h1 className='font-bold text-[3vw]'>New Arrival</h1>
 
-        <div className='flex justify-center gap-3 mt-5'>
+        <div className=' gap-3 mt-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2'>
           <div>
             <Image src="/frame1.png" width={0} height={0} alt="star icon" sizes="100%" style={{ width: '100vw' }} />
           </div>
@@ -684,28 +682,28 @@ function Homepage() {
 
 
 
-        <div className='flex justify-around m-10 p-11'>
+        <div className='m-10 p-11 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3'>
           <div className=' text-center'>
             <Image src="/trans.png" width={0} height={0} alt="transport icon" sizes="100%" className='ml-[25%] w-[40%]' />
-            <div className='mt-5 pb-3'>
-              <h1 className='font-bold  text-[1vw]'>FREE AND FAST DELIVERY</h1>
-              <h1 className="text-[1vw]">Free delivery for all orders over $140</h1>
+            <div className='mt-2 pb-3'>
+              <h1 className='text-2xl md:text-[1.5vw] font-bold py-4'>FREE AND FAST DELIVERY</h1>
+              <h1 className="text-2xl md:text-[1.5vw]  py-4">Free delivery for all orders over $140</h1>
             </div>
           </div>
 
           <div className=' text-center'>
             <Image src="/headphones.png" width={0} height={0} alt="headphone icon" sizes="100%" className='ml-[25%] w-[40%]' />
-            <div className='mt-5 pb-3'>
-              <h1 className='font-bold    text-[1vw]'>24/7 CUSTOMER SERVICE</h1>
-              <h1 className="text-[1vw]"> Friendly 24/7 customer support</h1>
+            <div className='mt-2 pb-3'>
+              <h1 className='text-2xl md:text-[1.5vw] font-bold py-4'>24/7 CUSTOMER SERVICE</h1>
+              <h1 className="text-2xl md:text-[1.5vw]  py-4"> Friendly 24/7 customer support</h1>
             </div>
           </div>
 
           <div className='text-center '>
             <Image src="/tick.png" width={0} height={0} alt="tick icon" sizes="100%" className='ml-[25%] w-[40%]' />
-            <div className='mt-5 pb-3'>
-              <h1 className='font-bold text-[1vw]' >MONEY BACK GUARANTEE</h1>
-              <p className="text-[1vw]">We reurn money within 30 days</p></div>
+            <div className='mt-2 pb-3'>
+              <h1 className='text-2xl md:text-[1.5vw] font-bold py-4' >MONEY BACK GUARANTEE</h1>
+              <p className="text-2xl md:text-[1.5vw]  py-4">We reurn money within 30 days</p></div>
           </div>
         </div>
 
