@@ -682,28 +682,29 @@ function Homepage() {
 
 
 
-        <div className='m-10 p-11 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3'>
-          <div className=' text-center'>
-            <Image src="/trans.png" width={0} height={0} alt="transport icon" sizes="100%" className='ml-[25%] w-[40%]' />
-            <div className='mt-2 pb-3'>
-              <h1 className='text-2xl md:text-[1.5vw] font-bold py-4'>FREE AND FAST DELIVERY</h1>
-              <h1 className="text-2xl md:text-[1.5vw]  py-4">Free delivery for all orders over $140</h1>
+        
+        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 mt-16'>
+          <div className=' text-center m-5'>
+            <Image src="/trans.png" width={100} height={100} alt="transport icon"  className='ml-32' />
+            <div className='mt-10'>
+              <h1 className='text-xl md:text-[1.5vw] font-bold py-4'>FREE AND FAST DELIVERY</h1>
+              <h1 className="text-xl md:text-[1.5vw]  ">Free delivery for all orders over $140</h1>
             </div>
           </div>
 
-          <div className=' text-center'>
-            <Image src="/headphones.png" width={0} height={0} alt="headphone icon" sizes="100%" className='ml-[25%] w-[40%]' />
-            <div className='mt-2 pb-3'>
+          <div className=' text-center  m-5'>
+            <Image src="/headphones.png" width={100} height={100} alt="headphone icon"  className='ml-32' />
+            <div className='mt-10'>
               <h1 className='text-2xl md:text-[1.5vw] font-bold py-4'>24/7 CUSTOMER SERVICE</h1>
-              <h1 className="text-2xl md:text-[1.5vw]  py-4"> Friendly 24/7 customer support</h1>
+              <h1 className="text-2xl md:text-[1.5vw]  "> Friendly 24/7 customer support</h1>
             </div>
           </div>
 
-          <div className='text-center '>
-            <Image src="/tick.png" width={0} height={0} alt="tick icon" sizes="100%" className='ml-[25%] w-[40%]' />
-            <div className='mt-2 pb-3'>
-              <h1 className='text-2xl md:text-[1.5vw] font-bold py-4' >MONEY BACK GUARANTEE</h1>
-              <p className="text-2xl md:text-[1.5vw]  py-4">We reurn money within 30 days</p></div>
+          <div className=' m-5'>
+            <Image src="/tick.png" width={100} height={100} alt="tick icon"  className='ml-32 ' />
+            <div className='mt-10'>
+              <h1 className='text-xl md:text-[1.5vw] font-bold p-4 ' >MONEY BACK GUARANTEE</h1>
+              <p className="text-xl md:text-[1.5vw]  ">We reurn money within 30 days</p></div>
           </div>
         </div>
 
