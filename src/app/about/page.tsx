@@ -3,7 +3,7 @@ import Image from "next/image"
 function About() {
     return (
         <>
-  <div className="flex flex-col lg:flex-row justify-center items-center gap-x-8 mx-auto" style={{ width: '80%' }}>
+  <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mx-auto" style={{ width: '80%' }}>
   <div className="lg:w-1/2 w-full text-left px-4">
   <h1 className="font-bold text-3xl sm:text-4xl md:text-[2vw] lg:text-[2vw]">Our Story</h1><br />
   <p className="text-base sm:text-lg md:text-[1.5vw] lg:text-[1.5vw]">
