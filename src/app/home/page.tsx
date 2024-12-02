@@ -127,7 +127,7 @@ function Homepage() {
             <p className="sm:2xl md:text-[1.5vw] py-4">HAVIT HV-G92 Gamepad</p>
             <div className="flex gap-3">
               <p className="text-xl sm:2xl md:text-[1.5vw] text-red-600">$120</p>
-              <p className="text-xl sm:2xl md:text-[1.5vw] ">$160</p>
+              <p className="text-xl sm:2xl md:text-[1.5vw] text-gray-500 line-through mr-2">$160</p>
             </div>
             <div className="flex space-x-1 mt-2">
               {[...Array(5)].map((_, i) => (
@@ -162,7 +162,7 @@ function Homepage() {
             <p className="sm:2xl md:text-[1.5vw] py-4">AK-900 Wired Keyboard</p>
             <div className="flex gap-3">
               <p className="text-xl sm:2xl md:text-[1.5vw] text-red-600">$960</p>
-              <p className="text-xl sm:2xl md:text-[1.5vw] ">$160</p>
+              <p className="text-xl sm:2xl md:text-[1.5vw] text-gray-500 line-through mr-2">$160</p>
             </div>
             <div className="flex space-x-1 mt-2">
               {[...Array(5)].map((_, i) => (
@@ -195,7 +195,7 @@ function Homepage() {
               <p className="sm:2xl md:text-[1.5vw] py-4">IPS LCD Gaming Monitor</p>
             <div className="flex gap-3">
               <p className="text-xl sm:2xl md:text-[1.5vw] text-red-600">$120</p>
-              <p className="text-xl sm:2xl md:text-[1.5vw] ">$160</p>
+              <p className="text-xl sm:2xl md:text-[1.5vw] text-gray-500 line-through mr-2">$160</p>
             </div>
             <div className="flex space-x-1 mt-2">
               {[...Array(5)].map((_, i) => (
@@ -228,7 +228,7 @@ function Homepage() {
             <p className="sm:2xl md:text-[1.5vw] py-4">S-Series Comfort Chair</p>
             <div className="flex gap-3">
               <p className="text-xl sm:2xl md:text-[1.5vw] text-red-600">$120</p>
-              <p className="text-xl sm:2xl md:text-[1.5vw] ">$160</p>
+              <p className="text-xl sm:2xl md:text-[1.5vw] text-gray-500 line-through mr-2">$160</p>
             </div>
             <div className="flex space-x-1 mt-2">
               {[...Array(5)].map((_, i) => (
@@ -322,7 +322,7 @@ function Homepage() {
             <p className='sm:2xl md:text-[1.5vw] py-4 '>HAVIT HV-G92 Gamepad</p>
             <div className='flex gap-3'>
               <p className='sm:2xl md:text-[1.5vw] text-red-600'>$120</p>
-              <p className='sm:2xl md:text-[1.5vw]'>$160</p>
+              <p className='sm:2xl md:text-[1.5vw] text-gray-500 line-through mr-2'>$160</p>
             </div>
             <div className="flex space-x-1 mt-2">
               {[...Array(5)].map((_, i) => (
@@ -349,7 +349,7 @@ function Homepage() {
             <p className='sm:2xl md:text-[1.5vw] py-4'>AK-900 Wired Keyboard</p>
             <div className='flex gap-3'>
               <p className='sm:2xl md:text-[1.5vw] text-red-600'>$960</p>
-              <p className='sm:2xl md:text-[1.5vw]'>$160</p>
+              <p className='sm:2xl md:text-[1.5vw] text-gray-500 line-through mr-2'>$160</p>
             </div>
             <div className="flex space-x-1 mt-2">
               {[...Array(5)].map((_, i) => (
@@ -375,8 +375,8 @@ function Homepage() {
             </div>
             <p className='sm:2xl md:text-[1.5vw] py-4'>IPS LCD Gaming Monitor</p>
             <div className='flex gap-3'>
-              <p className='sm:2xl md:text-[1.5vw] text-red-600'>$120</p>
-              <p className='sm:2xl md:text-[1.5vw]'>$160</p>
+              <p className='sm:2xl md:text-[1.5vw] text-red-600 '>$120</p>
+              <p className='sm:2xl md:text-[1.5vw] text-gray-500 line-through mr-2'>$160</p>
             </div>
             <div className="flex space-x-1 mt-2">
               {[...Array(5)].map((_, i) => (
@@ -403,7 +403,7 @@ function Homepage() {
             <p className='sm:2xl md:text-[1.5vw] py-4'>S-Series Comfort Chair</p>
             <div className='flex gap-3'>
               <p className='sm:2xl md:text-[1.5vw] text-red-600'>$120</p>
-              <p className='sm:2xl md:text-[1.5vw]'>$160</p>
+              <p className='sm:2xl md:text-[1.5vw] text-gray-500 line-through mr-2'>$160</p>
             </div>
             <div className="flex space-x-1 mt-2">
               {[...Array(5)].map((_, i) => (
