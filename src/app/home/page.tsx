@@ -42,7 +42,7 @@ function Homepage() {
         </div>
 
         {/* Image */}
-        <div className="mt-4 md:mt-0 pl-[5%] w-full md:w-auto">
+        <div className="mt-4 md:mt-0 p-3  w-full md:w-auto">
           <Image
             src="/mainn.png"
             width={0}
@@ -70,9 +70,10 @@ function Homepage() {
 
 
       <div className="border-b-2 border-black-500">
-        <div className=' flex justify-between items-center p-1'>
-          <div>
-            <h1 className=' sm:font-bold sm:text-2xl md:text-2xl font-bold '>Flash Sale</h1>
+        <div className=' flex flex-col sm:flex-col md:flex-row justify-between items-center  p-5'>
+          <div className='flex gap-2 p-4 '>
+           <div className='bg-red-500 w-5 rounded-sm text-red-500'>.</div> 
+           <h1 className=' sm:font-bold sm:text-2xl  md:text-2xl font-bold '>Flash Sale</h1>
           </div>
 
 
@@ -101,14 +102,12 @@ function Homepage() {
 
           <div className=' sm:flex-wrap flex gap-2'>
             <div>
-              <Image src='/Arrow.png' width={0} height={0} alt='arrow left'
-                sizes="100vw"
-                style={{ width: '100%' }} />
+              <Image src='/Arrow.png' width={50} height={50} alt='arrow left'
+               />
             </div>
             <div>
-              <Image src='/arrowr.png' width={0} height={0} alt='arrow right'
-                sizes="100vw"
-                style={{ width: '100%' }} />
+              <Image src='/arrowr.png' width={50} height={50} alt='arrow right'
+               />
             </div>
           </div>
         </div>
@@ -159,7 +158,7 @@ function Homepage() {
 
             </div>
             
-            <button className="bg-black text-white   text-xl sm:text-xl px-24 p-3 rounded-sm">Add to cart</button>
+            <button className="bg-black text-white   text-xl sm:text-xl px-5 md:px-24 p-3 rounded-sm">Add to cart</button>
             <p className="sm:2xl md:text-[1.5vw] py-4">AK-900 Wired Keyboard</p>
             <div className="flex gap-3">
               <p className="text-xl sm:2xl md:text-[1.5vw] text-red-600">$960</p>
@@ -256,8 +255,10 @@ function Homepage() {
       </div>
 
       <div>
-        <div className='flex justify-between items-center p-7'>
-          <div className='font-bold text-2xl sm:font-bold md:font-bold md:text-xl'>Browse By Category</div>
+        <div className='flex justify-between items-center p-3'>
+        <div className='flex gap-2'>
+          <div className='bg-red-500 w-5 rounded-sm text-red-500'>.</div>
+         <div className='font-bold text-2xl sm:font-bold md:font-bold md:text-xl'>Browse By Category</div></div>
           <div className='flex gap-2'>
             <Image src='/Arrow.png' width={40} height={40} alt='Arrow' />
             <Image src='/arrowr.png' width={40} height={40} alt='Arrow' />
@@ -299,10 +300,13 @@ function Homepage() {
 
 
       <div>
-        <div className='flex justify-between p-10'>
-          <h1 className='font-bold text-2xl sm:font-bold md:font-bold md:text-2xl'>Best Selling Products</h1>
-          <div className='pb-5 '>
-            <button className='bg-red-500 text-center text-xl sm:text-2xl  p-1 px-3  text-white rounded-md hover:bg-red-600'>
+        <div className='flex justify-between p-5'>
+       <div className='flex gap-2 '>
+         <div className='bg-red-500 w-5 rounded-sm text-red-500'>.</div> 
+          <h1 className='font-bold text-xl  md:text-2xl'>Best Selling Products</h1>
+          </div>
+          <div className=' '>
+            <button className='bg-red-500  text-xl sm:text-xl  p-2   text-white rounded-md hover:bg-red-600'>
               View All
             </button>
           </div>
@@ -310,7 +314,7 @@ function Homepage() {
 
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  '>
 
-          {/* Product 1 */}
+          
           <div className='flex flex-col p-6 items-center'>
             <div className="bg-[#F5F5F5]  p-24 px-28 hover:translate-x-2">
               <Image src="/jacket.png" width={0} height={0} alt='jacket' sizes="100vw" style={{ width: '100%' }} />
@@ -337,7 +341,7 @@ function Homepage() {
 
           </div>
 
-          {/* Product 2 */}
+         
           <div className='flex flex-col p-7 items-center'>
             <div className="bg-[#F5F5F5] p-28 px-28 hover:translate-x-2">
               <Image src="/bag.png" width={0} height={0} alt='keyboard' sizes="100vw" style={{ width: '100%' }} />
@@ -364,7 +368,7 @@ function Homepage() {
 
           </div>
 
-          {/* Product 3 */}
+    
           <div className='flex flex-col p-7 items-center'>
             <div className="bg-[#F5F5F5] p-28 px-24 hover:translate-x-2">
               <Image src="/sound.png" width={0} height={0} alt='monitor' sizes="100vw" style={{ width: '100%' }} />
@@ -391,7 +395,7 @@ function Homepage() {
 
           </div>
 
-          {/* Product 4 */}
+          
           <div className='flex flex-col p-7 items-center'>
             <div className="bg-[#F5F5F5] p-20 px-24 hover:translate-x-2">
               <Image src="/table.png" width={0} height={0} alt='chair' sizes="100vw" style={{ width: '100%' }} />
@@ -424,8 +428,8 @@ function Homepage() {
       <div>
 
 
-        <div className='flex flex-col sm:flex-col sm:m-10   md:flex-row justify-between  bg-black w-[90%] md:m-16 p-16 '>
-          <div className='p-10'>
+        <div className='flex flex-col sm:flex-col    md:flex-row justify-between  bg-black m-6 p-16 '>
+          <div className=''>
           <div>
   <p className="text-green-500 text-[3vw] font-bold mb-10">Categories</p>
 </div>
@@ -473,8 +477,9 @@ function Homepage() {
         <div className=''>
 
 
-          <div className=' flex justify-between items-center p-11'>
-            <div>
+          <div className=' flex justify-between  p-5'>
+            <div className='flex gap-2'>
+            <div className='bg-red-500 w-5 rounded-sm text-red-500'>.</div> 
               <h1 className='font-bold text-2xl sm:font-bold md:font-bold md:text-xl'>Explore Our Product</h1>
             </div>
             <div className=' sm:flex-wrap flex gap-2'>
@@ -669,8 +674,11 @@ function Homepage() {
 
 
       <div className='p-8 '>
-        <h1 className='font-bold text-[3vw]'>New Arrival</h1>
-
+      
+      <div className='flex gap-2'>
+         <div className='bg-red-500 w-5 rounded-sm text-red-500'>.</div>
+          <h1 className='font-bold text-2xl'>New Arrival</h1>
+      </div>
         <div className=' gap-3 mt-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2'>
           <div>
             <Image src="/frame1.png" width={0} height={0} alt="star icon" sizes="100%" style={{ width: '100vw' }} />
@@ -700,7 +708,7 @@ function Homepage() {
             </div>
           </div>
 
-          <div className=' m-5'>
+          <div className='text-center m-5'>
             <Image src="/tick.png" width={100} height={100} alt="tick icon"  className='ml-32 ' />
             <div className='mt-10'>
               <h1 className='text-xl md:text-[1.5vw] font-bold p-4 ' >MONEY BACK GUARANTEE</h1>
