@@ -5,7 +5,7 @@ function Contact() {
 
             <div className="flex justify-center  m-14">
 
-                <div className="flex   sm:flex-col md:flex-row gap-10">
+                <div className="flex flex-col  sm:flex-col md:flex-row gap-10">
 
                     <div className=" shadow-lg  rounded-lg">
                         <div className="border-b-2 m-5 p-2">
@@ -14,11 +14,11 @@ function Contact() {
                                     <Image src='/icons-phone.png' alt='Phone icon' width={0} height={0} sizes="100vw"
                                         style={{ width: '100%' }} />
                                 </div>
-                                <h1 className="font-bold text-[1.5vw] sm:text-xl">Call To Us</h1>
+                                <h1 className="font-bold text-xl sm:text-xl">Call To Us</h1>
                               </div>
                                <br />
-                                 <p className="text-[1.5vw] sm:text-xl p-2 ">We are available 24/7, 7 days a week</p>
-                                <p className="text-[1.5vw] sm:text-xl p-2">Phone: +8801611112222</p>
+                                 <p className="text-xl sm:text-xl p-2 ">We are available 24/7, 7 days a week</p>
+                                <p className="text-xl sm:text-xl p-2">Phone: +8801611112222</p>
                          </div>
                          <div>
                             <div className="flex gap-4 m-5">
@@ -26,17 +26,17 @@ function Contact() {
                                     <Image src='/icons-mail.png' alt='Mail icon' width={0} height={0} sizes="100vw"
                                         style={{ width: '100%' }} />
                                 </div>
-                                <h1 className="font-bold text-[1.5vw] sm:text-xl">Email Us</h1>
+                                <h1 className="font-bold text-xl sm:text-xl">Email Us</h1>
                             </div>
                             <br />
-                            <p className="text-[1.5vw]  sm:text-xl m-5 ">Fill out our form and we will contact you within 24 hours.</p>
-                            <p className="text-[1.5vw]  sm:text-xl m-5">Email: customer@exclusive.com</p>
-                            <p className="text-[1.5vw] sm:text-xl m-5">Email: support@exclusive.com</p>
+                            <p className="text-xl  sm:text-xl m-5 ">Fill out our form and we will contact you within 24 hours.</p>
+                            <p className="text-xl  sm:text-xl m-5">Email: customer@exclusive.com</p>
+                            <p className="text-xl sm:text-xl m-5">Email: support@exclusive.com</p>
                         </div>
                     </div>
 
                     <div className="w-full bg-white p-5 shadow-lg rounded-lg">
-                        <div className="flex gap-4 sm:flex-col md:flex-row">
+                        <div className="flex gap-4 flex-col sm:flex-col md:flex-row">
                             <input type="text" placeholder="Your Name" className="bg-[#F5F5F5] p-4 focus:outline-none border-2 focus:border-white rounded-md " />
                             <input type="text" placeholder="Your Email" className="bg-[#F5F5F5] p-4 focus:outline-none border-2 focus:border-white rounded-md " />
                             <input type="text" placeholder="Your Phone number" className="bg-[#F5F5F5] p-4 flex-1 focus:outline-none border-2 focus:border-white rounded-md " />

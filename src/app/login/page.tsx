@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 function Login(){
     return(
-        <div>   <div className='flex flex-col sm:flex-col md:flex-row  m-6'>
+        <div>   <div className='flex flex-col sm:flex-col md:flex-row p-2 py-10'>
         <div className=' flex flex-1 '> 
         {/* <Image src="/signm.png" width={800} height={400} alt="star icon" /> */}
         <Image
