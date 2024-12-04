@@ -70,7 +70,7 @@ function Homepage() {
 
 
       <div className="border-b-2 border-black-500">
-        <div className=' flex flex-col sm:flex-col md:flex-row justify-between items-center  p-5'>
+        <div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  p-5'>
           <div className='flex gap-2 p-4 '>
            <div className='bg-red-500 w-5 rounded-sm text-red-500'>.</div> 
            <h1 className=' sm:font-bold sm:text-2xl  md:text-2xl font-bold '>Flash Sale</h1>
@@ -158,7 +158,7 @@ function Homepage() {
 
             </div>
             
-            <button className="bg-black text-white   text-xl sm:text-xl px-5 md:px-24 p-3 rounded-sm">Add to cart</button>
+            <button className="bg-black text-white   text-xl sm:text-xl sm:px- md:px-24 p-3 rounded-sm">Add to cart</button>
             <p className="sm:2xl md:text-[1.5vw] py-4">AK-900 Wired Keyboard</p>
             <div className="flex gap-3">
               <p className="text-xl sm:2xl md:text-[1.5vw] text-red-600">$960</p>
@@ -691,26 +691,32 @@ function Homepage() {
 
 
         
-        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 mt-16'>
-          <div className=' text-center m-5'>
-            <Image src="/trans.png" width={100} height={100} alt="transport icon"  className='ml-32' />
-            <div className='mt-10'>
+        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3  mt-16'>
+          <div className=' flex justify-center flex-col'>
+           <div className='flex justify-center '> 
+                <Image src="/trans.png" width={100} height={100} alt="transport icon"  />
+           </div>
+            <div className='mt-10  text-center '>
               <h1 className='text-xl md:text-[1.5vw] font-bold py-4'>FREE AND FAST DELIVERY</h1>
               <h1 className="text-xl md:text-[1.5vw]  ">Free delivery for all orders over $140</h1>
             </div>
           </div>
 
-          <div className=' text-center  m-5'>
-            <Image src="/headphones.png" width={100} height={100} alt="headphone icon"  className='ml-32' />
-            <div className='mt-10'>
+          <div className='flex justify-center flex-col '>
+            <div className='flex justify-center '> 
+            <Image src="/headphones.png" width={100} height={100} alt="headphone icon"   />
+            </div>
+            <div className='mt-10 text-center'>
               <h1 className='text-2xl md:text-[1.5vw] font-bold py-4'>24/7 CUSTOMER SERVICE</h1>
               <h1 className="text-2xl md:text-[1.5vw]  "> Friendly 24/7 customer support</h1>
             </div>
           </div>
 
-          <div className='text-center m-5'>
-            <Image src="/tick.png" width={100} height={100} alt="tick icon"  className='ml-32 ' />
-            <div className='mt-10'>
+          <div className=' flex justify-center flex-col'>
+          <div className='flex justify-center '> 
+            <Image src="/tick.png" width={100} height={100} alt="tick icon"  />
+          </div>
+            <div className='mt-10 text-center'>
               <h1 className='text-xl md:text-[1.5vw] font-bold p-4 ' >MONEY BACK GUARANTEE</h1>
               <p className="text-xl md:text-[1.5vw]  ">We reurn money within 30 days</p></div>
           </div>
