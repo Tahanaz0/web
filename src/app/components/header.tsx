@@ -14,13 +14,13 @@ function Header() {
 
  
 <div className="m-3">
-      {/* Dropdown for Small Screens */}
+      
       <div className="md:hidden">
         <button
-          className="p-2 border rounded hover:bg-[#F5F5F5]"
+          className="p-2 border font-bold rounded hover:bg-[#F5F5F5]"
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          Menu
+          {'<'}
         </button>
         {menuOpen && (
           <ul className="mt-2 bg-white shadow-lg rounded w-full">
@@ -87,22 +87,22 @@ function Header() {
       <div className="hidden md:flex justify-between items-center gap-4">
         <ul className="flex gap-8   mr-14 ">
           <li className="text-[1.5vw]  hover:bg-[#F5F5F5]">
-            <Link href="home" className=" p-1 rounded-md hover:border-2 hover:border-black ">
+            <Link href="home" className=" p-1  hover:border-b hover:border-black ">
               Home
             </Link>
           </li>
           <li className="text-[1.5vw] hover:bg-[#F5F5F5]">
-            <Link href="about" className=" p-1 rounded-md hover:border-2 hover:border-black">
+            <Link href="about" className=" p-1 hover:border-b hover:border-black">
               About
             </Link>
           </li>
           <li className="text-[1.5vw] hover:bg-[#F5F5F5]">
-            <Link href="contact" className="p-1 rounded-md hover:border-2 hover:border-black">
+            <Link href="contact" className="p-1  hover:border-b hover:border-black">
               Contact
             </Link>
           </li>
           <li className="text-[1.5vw] hover:bg-[#F5F5F5] ">
-            <Link href="signup" className="p-1 rounded-md hover:border-2 hover:border-black">
+            <Link href="signup" className="p-1  hover:border-b hover:border-black">
               Sign up
             </Link>
           </li>

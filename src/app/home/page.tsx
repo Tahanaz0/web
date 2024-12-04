@@ -70,7 +70,7 @@ function Homepage() {
 
 
       <div className="border-b-2 border-black-500">
-        <div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  p-5'>
+        <div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10  p-5'>
           <div className='flex gap-2 p-4 '>
            <div className='bg-red-500 w-5 rounded-sm text-red-500'>.</div> 
            <h1 className=' sm:font-bold sm:text-2xl  md:text-2xl font-bold '>Flash Sale</h1>
@@ -100,7 +100,7 @@ function Homepage() {
             </div>
           </div>
 
-          <div className=' sm:flex-wrap flex gap-2'>
+          <div className=' sm:flex-wrap flex justify-end gap-2'>
             <div>
               <Image src='/Arrow.png' width={50} height={50} alt='arrow left'
                />
@@ -428,7 +428,7 @@ function Homepage() {
       <div>
 
 
-        <div className='flex flex-col sm:flex-col    md:flex-row justify-between  bg-black m-6 p-16 '>
+        <div className='flex flex-col sm:flex-col    md:flex-row justify-between  bg-black p-8 sm:p-10 m-6 md:p-16 '>
           <div className=''>
           <div>
   <p className="text-green-500 text-[3vw] font-bold mb-10">Categories</p>
@@ -436,10 +436,10 @@ function Homepage() {
 <h1 className="text-white font-bold text-[3vw] md:text-[2vw]">Enhance Yours</h1>
 <h1 className="text-white font-bold text-[3vw] md:text-[2vw]">Music Experience</h1>
 <div className="flex gap-2 py-5">
-  <div className="p-2 rounded-full px-4 bg-white">
-    <p className="text-[2vw] sm:text-1xl md:text-[1vw]">Days</p> {/* Font size changes for screen size */}
-    <span className="font-bold text-[3vw] p-2 md:text-[1.5vw]">02</span>
-  </div>
+      <div className="p-2 rounded-full px-4 bg-white">
+               <p className="text-[2vw] sm:text-1xl md:text-[1vw]">Days</p> {/* Font size changes for screen size */}
+                <span className="font-bold text-[3vw] p-2 md:text-[1.5vw]">02</span>
+      </div>
 
 
               <div className=" p-2 rounded-full px-4 bg-white   ">
@@ -459,14 +459,18 @@ function Homepage() {
             </div>
             <button className='bg-green-500 text-white text-xl md:text-xl px-5 p-2  rounded-sm hover:bg-green-400'>Buy Now</button>
           </div>
-          <div className='p-5  rounded-full'>
+          <div className='p-5  '>
             <Image
-              src='/speaker.png'
+              src='/speak.png'
               alt='speaker'
               width={0}
               height={0}
               sizes='100'
-              className='w-[100%] shadow-2xl  shadow-gray-400 rounded-full  m-5 '
+              className='w-[100%]   rounded-full  m-5 '
+              style={{
+                boxShadow: '0px 30px 50px rgba(255, 255, 255, 0.7)',  // Lighter white shadow with 20% opacity
+              }}
+              
             />
           </div> 
 
