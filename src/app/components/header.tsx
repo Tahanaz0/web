@@ -3,6 +3,7 @@ import Link from "next/link";
 // import Contact from "../";
 import React, { useState } from "react";
 import Image from "next/image";
+import { FcMenu } from "react-icons/fc";
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -15,73 +16,90 @@ function Header() {
  
 <div className="m-3">
       
-      <div className="md:hidden">
-        <button
-          className="p-2 border font-bold rounded hover:bg-[#F5F5F5]"
-          onClick={() => setMenuOpen(!menuOpen)}
+<div className="md:hidden">
+<button
+  className="p-2 border font-bold rounded hover:bg-[#F5F5F5]"
+  onClick={() => setMenuOpen(!menuOpen)}
+>
+  <FcMenu />
+</button>
+  {menuOpen && (
+    <ul className="mt-2 bg-white shadow-lg rounded w-full">
+      {/* Menu Items */}
+      <li className="text-[4vw] hover:bg-[#F5F5F5]">
+        <Link
+          href="home"
+          className="block px-4 py-2"
+          onClick={() => setMenuOpen(false)}
         >
-          {'<'}
-        </button>
-        {menuOpen && (
-          <ul className="mt-2 bg-white shadow-lg rounded w-full">
-            {/* Menu Items */}
-            <li className="text-[4vw] hover:bg-[#F5F5F5]">
-              <Link href="home" className="block px-4 py-2">
-                Home
-              </Link>
-            </li>
-            <li className="text-[4vw] hover:bg-[#F5F5F5]">
-              <Link href="about" className="block px-4 py-2">
-                About
-              </Link>
-            </li>
-            <li className="text-[4vw] hover:bg-[#F5F5F5]">
-              <Link href="contact" className="block px-4 py-2">
-                Contact
-              </Link>
-            </li>
-            <li className="text-[4vw] hover:bg-[#F5F5F5]">
-              <Link href="signup" className="block px-4 py-2">
-                Sign up
-              </Link>
-            </li>
-            {/* Search Bar */}
-            <li className="mt-2">
-              <div className="flex items-center bg-[#F5F5F5] px-2 py-1 rounded">
-                <input
-                  type="text"
-                  className="p-1 bg-[#F5F5F5] w-full focus:border-none border-transparent focus:outline-none text-[3.5vw]"
-                  placeholder="Search..."
-                />
-                <Image
-                  src="/search.png"
-                  width={20}
-                  alt="Search"
-                  height={20}
-                  className="cursor-pointer"
-                />
-              </div>
-            </li>
-            {/* Icons */}
-            <li className="flex justify-around mt-2">
-              <Image
-                src="/heart.png"
-                width={20}
-                alt="Favorite"
-                height={20}
-                className="cursor-pointer"
-              />
-              <Image
-                src="/cart.png"
-                width={20}
-                alt="Cart"
-                height={20}
-                className="cursor-pointer"
-              />
-            </li>
-          </ul>
-        )}
-      </div>
+          Home
+        </Link>
+      </li>
+      <li className="text-[4vw] hover:bg-[#F5F5F5]">
+        <Link
+          href="about"
+          className="block px-4 py-2"
+          onClick={() => setMenuOpen(false)}
+        >
+          About
+        </Link>
+      </li>
+      <li className="text-[4vw] hover:bg-[#F5F5F5]">
+        <Link
+          href="contact"
+          className="block px-4 py-2"
+          onClick={() => setMenuOpen(false)}
+        >
+          Contact
+        </Link>
+      </li>
+      <li className="text-[4vw] hover:bg-[#F5F5F5]">
+        <Link
+          href="signup"
+          className="block px-4 py-2"
+          onClick={() => setMenuOpen(false)}
+        >
+          Sign up
+        </Link>
+      </li>
+      {/* Search Bar */}
+      <li className="mt-2">
+        <div className="flex items-center bg-[#F5F5F5] px-2 py-1 rounded">
+          <input
+            type="text"
+            className="p-1 bg-[#F5F5F5] w-full focus:border-none border-transparent focus:outline-none text-[3.5vw]"
+            placeholder="Search..."
+          />
+          <Image
+            src="/search.png"
+            width={20}
+            alt="Search"
+            height={20}
+            className="cursor-pointer"
+          />
+        </div>
+      </li>
+      {/* Icons */}
+      <li className="flex justify-around mt-2">
+        <Image
+          src="/heart.png"
+          width={20}
+          alt="Favorite"
+          height={20}
+          className="cursor-pointer"
+        />
+        <Image
+          src="/cart.png"
+          width={20}
+          alt="Cart"
+          height={20}
+          className="cursor-pointer"
+        />
+      </li>
+    </ul>
+  )}
+</div>
+
 
     {/* md screen */}
       <div className="hidden md:flex justify-between items-center gap-4">
