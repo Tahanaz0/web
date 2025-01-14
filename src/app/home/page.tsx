@@ -468,7 +468,7 @@ function Homepage() {
               sizes='100'
               className='w-[100%]   rounded-full  m-5 '
               style={{
-                boxShadow: '0px 30px 50px rgba(255, 255, 255, 0.7)',  // Lighter white shadow with 20% opacity
+            
               }}
               
             />
